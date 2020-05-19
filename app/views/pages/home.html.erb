@@ -1,40 +1,61 @@
-<div class="vh-100 flex-sm-shrink-0 p-3" style="background-color: white, width: 350px">
-  <h5 class="text-center pt-5 pb-5">
-    Blog post coming soon!
-  </h5>
-  <div class="d-flex justify-content-center align-items-center">
-    <%= image_tag "mani.png", alt: "alttext" %>
-  </div>
-  <div class="d-flex justify-content-center align-items-center pt-5">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-      Subscribe
-    </button>
+
+<div class="navbar navbar-expand-sm  navbar-lewagon">
+  <a class="navbar-brand" href="#">
+    <%# <i class="fab fa-monero"></i> %>
+    <%# <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/logo.png" /> %>
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <%# <span class="navbar-toggler-icon"></span> %>
+    <i class="fas fa-bars navbar-toggler-icon"></i>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="publications">Publications</a>
+      </li>
+    </ul>
   </div>
 </div>
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h6 class="modal-title" id="exampleModalLongTitle">Be the first to hear about Mani's blog.</h6>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form action="" class="text-center">
-          <div class="form-group">
-            <label for="exampleInputEmail1">email address:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <!--   <small id="emailHelp" class="form-text text-muted"></small> -->
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-<!--       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal"></button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div> -->
-    </div>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1513569536235-bf46baacc948?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2511&q=80);">
+  <div class="container">
+    <h1>Hi, I am <strong>Mani</strong></h1>
+    <p>A Cancer Researcher, Medical Student and Science Geek.</p>
+    <a class="btn btn-flat" href="#">My Blogs</a>
   </div>
 </div>
+
+<div class="card-product">
+  <img src="https://images.unsplash.com/photo-1486825586573-7131f7991bdd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" />
+  <div class="card-product-infos">
+    <h2>Day in the Life of a PHD student</h2>
+    <p>From failed experiments to gruelling bosses.</p>
+  </div>
+</div>
+
+<div class="card-product">
+  <img src="https://images.unsplash.com/photo-1576086686350-2f5dba3ffeb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1104&q=80" />
+  <div class="card-product-infos">
+    <h2>The APOBEC Gene</h2>
+    <p>How this rare mutation affects cancer cells.</p>
+  </div>
+</div>
+
+<div class="card-product">
+  <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" />
+  <div class="card-product-infos">
+    <h2>From Rotterdam to London</h2>
+    <p>My journey as I shifted to the UK for a better life.</p>
+  </div>
+</div>
+
+
+<%# <div class="home">
+  <h1 class="header">Mani.</h1>
+  <h1 class="header">I am a scientist</h1>
+</div> %>

@@ -1,6 +1,8 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: transparent;
+  color: white;
+  height: 40px
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -9,4 +11,16 @@
 
 .navbar-lewagon .navbar-brand img {
   width: 40px;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.fa-monero {
+  color: white;
 }
