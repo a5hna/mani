@@ -88,14 +88,14 @@ img {
 }
 
 .card-product {
-  margin: 10px;
+  margin: 15px 0px;
   overflow: hidden;
   height: 120px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
-  max-width: 450px;
+  // max-width: 600px;
 }
 
 .card-product img {
@@ -121,3 +121,10 @@ img {
 .card-product .card-product-infos {
   padding: 16px;
 }
+
+// @media only screen and (max-width: 700px) {
+//   .container {
+//     padding: 0px;
+//   }
+  
+// }
