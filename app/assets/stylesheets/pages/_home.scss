@@ -20,7 +20,7 @@ img {
 .header {
   color: white;
 
-}
+} 
 
 .banner {
   background-size: cover;
@@ -128,3 +128,7 @@ img {
 //   }
   
 // }
+
+.banner {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(app/assets/images/mani.JPG)
+}
