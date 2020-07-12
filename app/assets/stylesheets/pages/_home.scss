@@ -143,19 +143,21 @@ button.navbar-toggler {
 
 .twitter {
   background: none;
+  padding: 30px 15px 15px 15px;
+  // padding-top: 30px;
 }
 
 @media only screen and (max-width: 700px) {
   .twitter {
-    background: steelblue;
+    // background: steelblue;
   }
 }
 
 
 .footer {
   height: 45px;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
   text-align: center;
   display: flex;
   align-items: center;
@@ -163,4 +165,22 @@ button.navbar-toggler {
   justify-content: flex-end;
   padding: 0 20px;
   font-size: 10px;
+}
+
+.interests {
+  padding: 15px;
+  background: white;
+
+  i {
+    margin: 10px;
+    font-size: 40px;
+  }
+
+  .col-sm-12 {
+    margin: 15px 0;
+  }
+}
+
+body {
+  background: white;
 }
