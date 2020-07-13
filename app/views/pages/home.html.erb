@@ -23,9 +23,10 @@
   </div> %>
 </div>
 
+<%# <div class="banner"> %>
 <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1513569536235-bf46baacc948?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2511&q=80);">
-<%# <div class="banner">
-<img src="./assets/images/mani.JPG"> %>
+<%# <div class="banner" style="background-image: url(= asset_path('mani.JPG'))"> %>
+<%# <img src="./assets/images/mani.JPG"> %>
 
   <div class="container">
     <h1><strong>Mani</strong> Venkatesan</h1>
@@ -40,8 +41,33 @@
 
 
 <div class="row">
+  <div class="col-sm-12 text-center" style="margin-top: 15px;">
+    <h2 style="font-size: 20px; font-weight: 500; background: darkblue; color: white;">Learn about what I do</h2>
+    <p style="font-size: 14px; margin-bottom: 20px; color: darkblue;">Scientific research, medicine to marathon training.</p>
+  </div>
 
-  <div class="col-sm-12 col-md-9" style="padding-top: 30px; margin-bottom: 20px">
+  <div class="col-sm-12 col-md-4 text-center" style="margin-top: 15px;">
+    <a class="btn btn-ghost" href="#">
+      <p>Journal Club</p>
+      <p style="font-size: 12px">Recent reviews of high-quality scientific articles. Check if yours is here!</p>
+    </a>
+  </div>
+
+  <div class="col-sm-12 col-md-4 text-center" style="margin-top: 15px;">
+    <a class="btn btn-ghost" href="#">
+      <p>My Race for Cancer Research UK</p>
+      <p style="font-size: 12px">Follow my journey as I aim to run a marathon in the last few months of my Phd.</p>
+    </a>
+  </div>
+
+  <div class="col-sm-12 col-md-4 text-center" style="margin-top: 15px;">
+    <a class="btn btn-ghost" href="#">
+      <p>From Rotterdam to London</p>
+      <p style="font-size: 12px">My journey as a MD Phd student from the NL to the UK.</p>
+    </a> 
+  </div>
+
+  <%# <div class="col-sm-12 col-md-9" style="padding-top: 30px; margin-bottom: 20px">
     <h2 style="font-size: 20px; font-weight: 700; text-align: center;">Learn about what I do</h2>
     <p style="font-size: 14px; margin-bottom: 20px; text-align: center;">Scientific research, medicine to marathon training.</p>
       <div class="card-product">
@@ -55,8 +81,8 @@
       <div class="card-product">
         <img src="https://images.unsplash.com/photo-1576086686350-2f5dba3ffeb3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1104&q=80" />
         <div class="card-product-infos">
-          <h2>My Race for Cancer Research UK</h2>
-          <p>Follow my journey as I aim to run a marathon in the last few months of my Phd.</p>
+          <h2>From Rotterdam to London</h2>
+          <p>My journey as a MD Phd student from the NL to the UK.</p>
         </div>
       </div>
 
@@ -67,12 +93,13 @@
           <p>My journey as a MD Phd student from the NL to the UK.</p>
         </div>
       </div>
-  </div>
+  </div> %>
 
   <div class="col-sm-12 col-md-3 twitter" style="text-align: center; margin-bottom: 20px">
-    <h2 style="font-size: 20px; font-weight: 700;">Let's Tweet!</h2>
-    <p style="font-size: 14px; margin-bottom: 20px">Follow me on social media.</p>
-    <a class="twitter-timeline" data-width="100vw" data-height="300" data-theme="dark" href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw">Tweets by MD_Venkatesan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <h2 style="font-size: 20px; font-weight: 500; background: darkblue; color: white;">Let's Tweet!</h2>
+    <p style="font-size: 14px; margin-bottom: 20px; color: darkblue;">Follow me on social media.</p>
+    <a href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @MD_Venkatesan</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <a class="twitter-timeline" data-width="100vw" data-height="300" data-theme="light" href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw">Tweets by MD_Venkatesan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 
 </div>      
@@ -81,8 +108,8 @@
 </div>
 
 <div class="interests container" style="text-align: center;">
-  <h2 style="font-size: 20px; font-weight: 700;">Areas of Interest</h2>
-  <p style="font-size: 14px; margin-bottom: 20px">Take a look at some of the things I love working one.</p>
+  <h2 style="font-size: 20px; font-weight: 500; background: darkblue; color: white;">Areas of Interest</h2>
+  <p style="font-size: 14px; margin-bottom: 20px; color: darkblue;">Take a look at some of the things I love working one.</p>
   <div class="row" style="text-align: center;">
     <div class="col-sm-12 col-md-6">
       <i class="fas fa-microscope"></i>

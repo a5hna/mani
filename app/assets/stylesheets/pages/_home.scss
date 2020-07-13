@@ -47,12 +47,17 @@ img {
 
 .btn-ghost {
   color: #4A4A4A;
+  color: darkblue;
   border: 1px solid #4A4A4A;
+  border: 1px solid darkblue;
   padding: 8px 24px;
-  border-radius: 50px;
+  // border-radius: 50px;
   font-weight: lighter;
   opacity: 0.6;
   transition: opacity 0.3s ease;
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
 }
 
 .btn-ghost:hover {
@@ -130,7 +135,8 @@ img {
 // }
 
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/assets/images/mani.JPG');
+  // background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('/assets/images/mani.JPG');
+  // background-image: url(<%= asset_path('mani') %>);
 }
 
 button.navbar-toggler {
@@ -158,6 +164,7 @@ button.navbar-toggler {
   height: 45px;
   background: white;
   color: black;
+  color: darkblue;
   text-align: center;
   display: flex;
   align-items: center;
@@ -178,6 +185,9 @@ button.navbar-toggler {
 
   .col-sm-12 {
     margin: 15px 0;
+    h6 {
+      color: darkblue;
+    }
   }
 }
 
