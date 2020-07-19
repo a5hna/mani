@@ -184,7 +184,7 @@ button.navbar-toggler {
 
   i {
     margin: 10px;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .col-sm-12 {
@@ -211,4 +211,21 @@ body {
   font-weight: 500; 
   color: white;
   text-align: center;
+}
+
+.main-cards {
+  .card {
+    border: none;
+    border-radius: none;
+  }
+
+  .white-btn {
+    background: rgba(255, 255, 255, 0.9);
+    h5 {
+      font-size: 16px;
+    };
+    p {
+      font-size: 12px;
+    }
+  }
 }
