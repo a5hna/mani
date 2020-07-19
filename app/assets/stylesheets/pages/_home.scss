@@ -23,22 +23,25 @@ img {
 } 
 
 .banner {
+  
+  background-color: white;
   background-size: cover;
   background-position: center;
   padding: 150px 0;
-  margin-top: -40px
+  margin-top: -40px;
+  margin: 15px;
 }
 
 .banner h1 {
   margin: 0;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
@@ -165,6 +168,7 @@ button.navbar-toggler {
   background: white;
   color: black;
   color: darkblue;
+  color: #1e2335;
   text-align: center;
   display: flex;
   align-items: center;
@@ -197,6 +201,14 @@ body {
 
 .social-media {
   i {
-    color: dodgerblue;
+    color: darkblue;
   }
+}
+
+.section-divider {
+  background: linear-gradient(to right, #1e2335, #333b56);
+  font-size: 20px; 
+  font-weight: 500; 
+  color: white;
+  text-align: center;
 }
