@@ -142,6 +142,13 @@ img {
   // background-image: url(<%= asset_path('mani') %>);
 }
 
+.mani-photo {
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(asset_path('mani.JPG'));
+  background-size: cover;
+  overflow: hidden;
+  min-height: 300px;
+}
+
 button.navbar-toggler {
   padding: 8px 0px;
 }
@@ -229,4 +236,8 @@ body {
       font-size: 12px;
     }
   }
+}
+
+.about-me {
+  padding: 0;
 }
