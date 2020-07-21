@@ -1,5 +1,33 @@
 .genre-list {
     padding: 0px 0px 0px 20px;
+
+    .biography {
+        color: red;
+    }
+
+    .myths {
+        color: blueviolet
+    }
+
+    .philosophy {
+        color: hotpink;
+    }
+
+    .science {
+        color: green;
+    }
+
+    .selfdev {
+        color: rgb(54, 20, 173);
+    }
+
+    .sociology {
+        color: orange;
+    }
+
+    .sport {
+        color: darkcyan;
+    }
 }
 
 .author {
