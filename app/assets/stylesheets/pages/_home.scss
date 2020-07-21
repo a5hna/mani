@@ -201,6 +201,7 @@ button.navbar-toggler {
       color: darkblue;
     }
   }
+
 }
 
 body {
@@ -235,6 +236,10 @@ body {
     p {
       font-size: 12px;
     }
+
+    width: 100%;
+    margin-bottom: -60%;
+    border-radius: 0px !important;
   }
 }
 
