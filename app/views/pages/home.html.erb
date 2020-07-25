@@ -78,7 +78,7 @@
     <div class="col-sm-12 col-md-6">
       <i class="fas fa-microscope"></i>
       <h6>Cancer Research</h6>
-      <p style="font-size: 12px; padding: 10px 30px;">My Phd research at the Francis Crick Institute in London focuses on how APOBEC is involved in genome instability.</p>
+      <p style="font-size: 12px; padding: 10px 30px;">My PhD research at the Francis Crick Institute in London focuses on how APOBEC is involved in genome instability.</p>
     </div>
     <div class="col-sm-12 col-md-6">
       <i class="fas fa-stethoscope"></i>
@@ -97,37 +97,131 @@
     </div>
   </div>
 
-  <div class="social-media text-center">
+  <%# <div class="social-media text-center">
     <h2 class="section-divider">Let's Connect</h2>
     <p style="font-size: 14px; margin: 20px 0px; color: darkblue;">Follow me on social media.</p>
     <div class="row">
-      <div class="col-sm-12 col-md-3 twitter" style="text-align: center; margin-bottom: 20px">
+      <div class="col-sm-12 col-md-3 twitter" style="text-align: center; margin-bottom: 20px"> %>
         <%# <h2 class="section-divider">Let's Tweet!</h2> %>
         <%# <p style="font-size: 14px; margin-bottom: 20px; color: darkblue;">Follow me on social media.</p> %>
         <%# <a href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @MD_Venkatesan</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> %>
-        <a class="twitter-timeline" data-width="100vw" data-height="300" data-theme="light" href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw">Tweets by MD_Venkatesan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <%# <a class="twitter-timeline" data-width="100vw" data-height="300" data-theme="light" href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw">Tweets by MD_Venkatesan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
+    </div>
+  </div> %>
+
+</div>
+
+<div class="container">
+  <h2 class="section-divider">Investigating APOBEC in Cancer</h2>
+  <p style="font-size: 14px; margin: 20px 0px; color: darkblue; text-align: center">What exactly i've been working on during my PhD.</p>
+
+  <div class="row mobile-slides" style="margin: 20px 0px">
+
+    <div class="col-sm-12 col-md-0">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <%= image_tag "Slide1" %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "Slide2" %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "Slide3" %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag "Slide4" %>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>...</h5>
+          <p>...</p>
+        </div>
+      </div> 
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+  </div>
+
+  </div>
+
+  <div class="row desktop-slides" style="margin: 40px 0px">
+    <div class="col-xs-0 col-sm-0 col-md-3">
+      <%= image_tag "Slide1" %>
+    </div>
+    <div class="col-xs-0 col-sm-0 col-md-3">
+      <%= image_tag "Slide2" %>
+    </div>
+    <div class="col-xs-0 col-sm-0 col-md-3">
+      <%= image_tag "Slide3" %>
+    </div>
+    <div class="col-xs-0 col-sm-0 col-md-3">
+      <%= image_tag "Slide4" %>
     </div>
   </div>
 
 </div>
+
+
 
 <div class=" container">
     <h2 class="section-divider">About Me</h2>
     <p style="font-size: 14px; margin: 20px 0px; color: darkblue; text-align: center">Learn more about my journey.</p>
 
   <div class="row">
-    <div class="col-sm-12 col-md-6">
+    <div class="col-sm-12 col-md-4">
       <div class="mani-photo">
-        
       </div>
     </div>
-    <div class="col-sm-12 col-md-6">
+    <div class="col-sm-12 col-md-4">
       <div style="display: flex; align-items: center; justify-content: center; padding: 5px">
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p style="font-size: 13px; line-height: 1.6; text-align: center">I am Subramanian Venkatesan (just call me Mani) and if I have to put a label on myself, I would choose: a cancer researcher, medical student and science geek. I started medical school at Erasmus Medical Centre in Rotterdam and immediately fell in love with science. At the neuroscience department I worked on neuroanatomy of a novel cerebellar nucleus. Wanting to do more patient-related research I completed a Masters in Neuroscience focusing on personalised medicine in glioblastoma multiforme. Towards the end of this research period I got recruited to pursue a PhD at the Francis Crick Institute in London by my current mentor Prof. Charles Swanton.  Here I am investigating the involvement of APOBEC in cancer genome instability.</p>
+      </div>
+    </div>
+    <%# <div class="col-sm-12 col-md-3">
+      <div style="display: flex; align-items: center; justify-content: center; padding: 5px">
+        <p>This website is an attempt to track my scientific progress, personal development and collect my thoughts in the form of occasional blog posts. Every month I will digest my most memorable learnings and write about them. These blog posts will be a way to record my lessons learnt so that I can look back on them whenever needed. My hope is that it might also bring value to others. I would be very eager to learn from you, so if you want to share book recommendations, podcasts or any other pieces of inspiration, just send me an email on venkatesan.mani(at)gmail.com and I might incorporate it in the next blog post. I’m looking forward to hearing from you.</p>
+      </div>
+    </div> %>
+    <div class="col-sm-12 col-md-4">
+      <div style="display: flex; align-items: center; justify-content: center; padding: 5px">
+        <a class="twitter-timeline" data-width="100vw" data-height="300" data-theme="dark" href="https://twitter.com/MD_Venkatesan?ref_src=twsrc%5Etfw">Tweets by MD_Venkatesan</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
     </div>
   </div>
+
+</div>
+
+<div style="margin:15px" class="end-text">
+  <div style="display: flex; align-items: center; justify-content: center; padding: 30px; color: white; background; background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80); background-size: cover;">
+    <p style="text-align: center;">This website is an attempt to track my scientific progress, personal development and collect my thoughts in the form of occasional blog posts. Every month I will digest my most memorable learnings and write about them. These blog posts will be a way to record my lessons learnt so that I can look back on them whenever needed. My hope is that it might also bring value to others. I would be very eager to learn from you, so if you want to share book recommendations, podcasts or any other pieces of inspiration, just send me an email on venkatesan.mani(at)gmail.com and I might incorporate it in the next blog post. I’m looking forward to hearing from you.</p>
+  </div>
+<div>
+
+<div class="container">
+    <p style="font-size: 14px; margin: 40px 0px; color: darkblue; text-align: center">Follow me on social media.</p>
 
     <div class=" social-media row" style="text-align: center; font-size: 25px; margin: 30px;">
       <div class="col">
